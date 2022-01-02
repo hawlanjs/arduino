@@ -20,7 +20,7 @@ void loop() {
   delay(30);
   distance = calculateDistance();// Calls a function for calculating the distance measured by the Ultrasonic sensor for each degree
   
-  Serial.print(i); // Sends the current degree into the Serial Port
+  Serial.print(i); 
   Serial.print(",");
   Serial.print(distance); 
   Serial.print("."); 
