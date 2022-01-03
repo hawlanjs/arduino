@@ -4,7 +4,7 @@ const int trigPin = 10;
 const int echoPin = 11;
 long duration;
 int distance;
-Servo myServo; // Creates a servo object for controlling the servo motor
+Servo myServo;
 void setup() {
   pinMode(trigPin, OUTPUT);
   pinMode(echoPin, INPUT); 
