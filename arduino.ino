@@ -3,7 +3,6 @@
 // Defines Tirg and Echo pins of the Ultrasonic Sensor
 const int trigPin = 10;
 const int echoPin = 11;
-// Variables for the duration and the distance
 long duration;
 int distance;
 Servo myServo; // Creates a servo object for controlling the servo motor
